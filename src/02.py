@@ -54,3 +54,5 @@ async def async_02():
 
 if __name__ == "__main__":
     asyncio.run(async_02())
+
+#TESTED
