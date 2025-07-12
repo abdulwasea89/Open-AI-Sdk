@@ -42,8 +42,15 @@ agent = Agent(
 # Runner.run()
 # Which runs async method and  return RunResult
 
-async def 
+input = input("Message the Agent")
 
+async def async_02():
+    result = await Runner.run(
+        agent,
+        input = input,
+        run_config = run_config,
+    )
+    print(result.final_output)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(async_02())
