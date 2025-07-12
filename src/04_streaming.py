@@ -41,9 +41,9 @@ agent = Agent(
 
 async def main():
     # 5 Set up the runner to use the agent
-    result = await Runner.run_streamed(
+    result = Runner.run_streamed(
         agent,
-        input="what is the meaning of life?",
+        input="Hi",
         run_config=run_config,
     )
 
