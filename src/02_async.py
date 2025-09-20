@@ -9,6 +9,8 @@ from agents import enable_verbose_stdout_logging
 # Load the environment variables from the .env file
 load_dotenv()
 
+
+
 # Set up the your Gemini API key
 gemini_api_key = os.getenv('GEMINI_API_KEY')
 
@@ -56,3 +58,4 @@ if __name__ == "__main__":
     asyncio.run(async_02())
 
 #TESTED
+

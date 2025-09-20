@@ -34,7 +34,7 @@ run_config = RunConfig(
 # 4 Set up the agent to use the model
 agent = Agent(
     name="agent",
-    instructions="You are a helpful assistant."
+    instructions="You are a helpful assistant.",
 )
 
 async def main():
